@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 40%;
+  background-color: #EEEFF4;
+}
+
+body,
+html,
+.App,
+.vertical-center {
+  width: 100%;
+  height: 100%;
+  background:#593772;
+      background-image: linear-gradient(#6F5282,#593772) ;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.navbar {
+  background: #593772 !important;
+  width: 100%;
+}
+
+.btn-outline-primary {
+  border-color: #1833FF;
+  color: #1833FF;
+}
+
+.btn-outline-primary:hover {
+  background-color: #1833FF;
+  color: #ffffff;
+}
+
+.vertical-center {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inner-block {
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  transition: all .3s;
+  border-radius: 20px;
+}
+
+.vertical-center .form-control:focus {
+  border-color: #2554FF;
+  box-shadow: none;
+}
+
+.vertical-center h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+label {
+  font-weight: 500;
+}
+
+.btnClose {background-color: initial;
+      position:absolute;
+      top:20%;
+      left:70%;
+      width:2.5%;
+      font-size: 100%;
+      color: black;
+      background-color: #593772;
+      height:5%;
+      border-radius:50%;
+      border-color: initial;
+      z-index: 10;
+      cursor: pointer;
+      visibility: hidden;
+}
+#offer .selected-message {
+    width: 300px;
+    background-color: #6F5282 ;
+    border-radius: 20px;
+    font-size: 26px;
+    font-family: "Century gothic",poppins, geomtric ,slab;
+    font-weight: 500;
+    
+    text-align: center;
+    color: #ffffff;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    z-index: 5;
+    position: center center;
+    
+    }
+    /*-----compteur d'essais----------------------*/
+    .compteur{
+      display: flex;
+      position: absolute;
+        left: 14%;
+          top: 90%;
+          font-size:20px;
+          color:#ffffff;
+          font-family: "Century gothic",poppins, geomtric ,slab;
+          
+       }
